@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(217, 19%, 24%) ;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px; 
+}
+.header{
+    color: hsl(150, 100%, 66%);
+}
+.img1{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.advise{
+    color: white;
+    font-size: 25px;
+}
+
+
+.img2{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00ff88; 
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+.img2:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 255, 136, 0.4);
+}
